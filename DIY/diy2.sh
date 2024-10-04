@@ -44,7 +44,7 @@ sed -i   “3iuci 提交 istore”包/emortal/default-settings/files/99-default-
 sed -i .bak “s，mirrors.vsean.net/openwrt，mirrors.vsean.net/openwrt，g”包/emortal/default-settings/files/99-default-settings
 
 
-＃＃无线上网
+##无线上网
 sed -i  “s/MT7981_AX3000_2.4G/MzWrt-2.4G/g”包/mtk/drivers/wifi-profile/files/mt7981/mt7981.dbdc.b0.dat
 sed -i  “s/MT7981_AX3000_5G/MzWrt-5G/g”包/mtk/drivers/wifi-profile/files/mt7981/mt7981.dbdc.b1.dat
 
