@@ -6,7 +6,7 @@
 
 
 ##配置IP
-sed -i  's/192.168.1.1/192.168.1.100/g' package/base-files/files/bin/config_generate
+sed -i  's/192.168.1.100/192.168.1.100/g' package/base-files/files/bin/config_generate
 
 ##
 rm -rf ./feeds/extraipk/主题/luci-theme-argon-18.06
